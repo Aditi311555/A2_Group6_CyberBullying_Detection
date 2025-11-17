@@ -5,18 +5,18 @@ Here's a **clean and professional README file** for your project, formatted in M
 
 ---
 
-# 🚨 Multi-Modal Cyberbullying Detection System
+# Multi-Modal Cyberbullying Detection System
 
-## 🎯 Project Objective
+## Project Objective
 
 This project aims to build a comprehensive **multi-modal cyberbullying detection system**, designed to detect harmful or offensive content from a variety of input formats:
 
-* 📝 **Text messages**
-* 😊 **Emoji usage patterns**
-* 🎤 **Audio messages** (via Speech-to-Text)
-* 🌐 **Marathi message detection** (via Marathi → English translation)
-* 🔐 **Encrypted or obfuscated text detection** (e.g., `f**k`, `f*k`)
-* 🖼️ **Image-based text detection** (via OCR extraction)
+*  **Text messages**
+* **Emoji usage patterns**
+*  **Audio messages** (via Speech-to-Text)
+* **Marathi message detection** (via Marathi → English translation)
+*  **Encrypted or obfuscated text detection** (e.g., `f**k`, `f*k`)
+*  **Image-based text detection** (via OCR extraction)
 
 The system is built to be **real-time, scalable, and practical for modern social media platforms**.
 
@@ -51,25 +51,25 @@ We trained and compared the following algorithms:
 
 ---
 
-## 🧠 Multi-Modal Pipeline Components
+##  Multi-Modal Pipeline Components
 
-### 🎤 Speech-to-Text
+###  Speech-to-Text
 
 * Converts audio messages to text
 * Text sent to classifier for bullying detection
 
-### 🌐 Marathi → English Translation
+###  Marathi → English Translation
 
 * Supports Marathi bullying detection
 * Marathi input → translated to English → classified
 * If result is benign, output is shown in Marathi
 
-### 🖼️ OCR for Image-Based Text
+###  OCR for Image-Based Text
 
 * Extracts text from images using OCR
 * Text is classified and flagged if abusive
 
-### ✍️ SymSpell Spell Correction
+###  SymSpell Spell Correction
 
 * Corrects typos, noisy inputs, obfuscated text
 * Improves accuracy for user-generated content
@@ -88,11 +88,11 @@ We trained and compared the following algorithms:
 | MultinomialNB          | 0.006s     | 0.0021s      | 89.91%     | 92.76%     | 92.54%     | 94.54%     | 88.66%         | 91.61%          | 96.78%      | 97.66%       |
 | AdaBoostClassifier     | 1.49s      | 0.3707s      | 84.09%     | 84.19%     | 86.37%     | 86.34%     | 96.74%         | 96.90%          | 78.01%      | 77.85%       |
 
-🟢 **LinearSVC** achieved the best result with excellent accuracy, precision, recall, and extremely low latency — making it ideal for real-time deployment.
+ **LinearSVC** achieved the best result with excellent accuracy, precision, recall, and extremely low latency — making it ideal for real-time deployment.
 
 ---
 
-## 🧩 Conclusion
+## Conclusion
 
 This project demonstrates a **multi-modal cyberbullying detection pipeline** that effectively integrates:
 
@@ -105,13 +105,13 @@ This project demonstrates a **multi-modal cyberbullying detection pipeline** tha
 
 By combining several modalities and preprocessing strategies (spell correction, OCR, translation), the system overcomes weaknesses of traditional text-only models and provides reliable, real-time moderation for social media platforms.
 
-🔍 The system also includes support for **blocking repeated offenders**, demonstrating practical intervention potential.
+The system also includes support for **blocking repeated offenders**, demonstrating practical intervention potential.
 
-🌍 Multilingual support across **English, Hindi, Marathi**, combined with detection from **encrypted / obfuscated text**, maximizes real-world applicability.
+Multilingual support across **English, Hindi, Marathi**, combined with detection from **encrypted / obfuscated text**, maximizes real-world applicability.
 
 ---
 
-## 📚 References
+##  References
 
 1. Zhu, C., Huang, S., Evans, R., & Zhang, W. (2021). Cyberbullying among adolescents and children: A comprehensive review… *Frontiers in Public Health*, 9, 634909.
 2. Tokunaga, R. S. (2010). Following you home from school: A critical review… *Computers in Human Behavior*, 26(3), 277-287.
