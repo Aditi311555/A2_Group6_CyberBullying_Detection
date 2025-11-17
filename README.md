@@ -13,7 +13,7 @@ This project aims to build a comprehensive **multi-modal cyberbullying detection
 *  **Emoji usage patterns**
 * **Audio messages** (via Speech-to-Text)
 * **Marathi message detection** (via Marathi → English translation)
-*  **Encrypted or obfuscated text detection** (e.g., `f**k`, `f*k`)
+*  **Encrypted or obfuscated text detection** 
 *  **Image-based text detection** (via OCR extraction)
 
 The system is built to be **real-time, scalable, and practical for modern social media platforms**.
