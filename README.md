@@ -22,7 +22,7 @@ The system is built to be **real-time, scalable, and practical for modern social
 
 ---
 
-## 📊 Dataset Details
+## Dataset Details
 
 * **Total Rows:** 18,000
 * **Features:**
@@ -37,7 +37,7 @@ Dataset includes real-world, noisy, multilingual, and code-mixed text to improve
 
 ---
 
-## 🤖 Machine Learning Models Used
+## Machine Learning Models Used
 
 We trained and compared the following algorithms:
 
@@ -76,7 +76,7 @@ We trained and compared the following algorithms:
 
 ---
 
-## 📈 Results
+## Results
 
 | Model                  | Train Time | Predict Time | Test Acc   | Train Acc  | Test F1    | Train F1   | Test Precision | Train Precision | Test Recall | Train Recall |
 | ---------------------- | ---------- | ------------ | ---------- | ---------- | ---------- | ---------- | -------------- | --------------- | ----------- | ------------ |
@@ -130,17 +130,5 @@ Multilingual support across **English, Hindi, Marathi**, combined with detection
 15. Pew Research Center (2022). Teens and cyberbullying 2022.
 16. Dataset Source: GitHub.
 
----
 
-💡 If you'd like:
-
-* 🖼️ Images
-* 📈 Plots
-* 🔖 Badges
-* 📄 PDF export
-* 🧩 Code block examples
-
-Just let me know — I’ll update this accordingly!
- Center. (2022, December 15). Teens and cyberbullying 2022. [URL]
-[16] Dataset Source GitHub
 
