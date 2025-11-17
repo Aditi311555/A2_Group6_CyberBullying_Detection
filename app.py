@@ -123,9 +123,7 @@ def apriori_detect(comment):
             return True, emojis_found, pattern
     return False, emojis_found, None
 
-# ==========================
 # ======== ROUTES ==========
-# ==========================
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
